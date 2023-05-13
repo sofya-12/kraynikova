@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Верстка сайта на Bootstrap 4</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="img/WIFJIu9H8pI8EO5cDKMMI9ka7TfliSWoP4QYF4GKxUsj8RJOmrQOlncgGZjbHXhaV0oIA92sbAJ39JmmJmcRTFaI-transformed.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a href="#" class="nav-link">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Про нас</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Сервисы</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Команда</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- Слайдер изображений -->
+  <div class="carousel slide" data-ride="carousel" id="slides">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/5c7d63ac-aec6-441e-9da2-cb0bae12e42d.jpg">
+        <div class="carousel-caption">
+          <h1 class="display-2">ПРОМРОБОКВАНТУМ</h1>
+          <h3>Давай учиться вместе</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">Подробнее</button>
+          <button type="button" class="btn btn-warning btn-lg">Записаться</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/63d1c6ae-48da-4351-bb26-43aec819e81c.jpg">
+      </div>
+      <div class="carousel-item">
+        <img src="img/c6f3757b-5e23-4dd9-9972-3b5c69a686ca.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- Основной блок сайта -->
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">В промробоквантуме формируют первичные представления о робототехнике, её значении в жизни человека, о профессиях, связанных с роботами. Здесь учат создавать роботов: настраивать аппаратное обеспечение, устанавливать беспроводную связь между мобильным роботом и компьютером, используя промышленные средства программирования, изучают передовые технологии в области электроники, мехатроники.</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <a href="#"><button class="btn btn-success btn-lg" type="button">Читать далее</button></a>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+  <!-- Блок с характеристиками -->
+  <div class="container-fluid">
+    <div class="row text-center alert">
+      <div class="col-12">
+        <h1 class="display-4">Промробоквантум</h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p class="lead"> это робототехническая лаборатория с производственными помещениями, оснащенная современным оборудованием и передовым программным обеспечением. Всего несколько лет назад роботов можно было встретить лишь в фантастических фильмах и произведениях писателей-фантастов, однако современные технологии шагнули так далеко вперед, что настоящим роботом уже сложно удивить даже ребенка.</p>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <!-- Простая секция с изображением -->
+  <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="offset-lg-2 col-lg-4">
+        <h2>Образовательные направления в промробоквантуме делятся на 3 уровня:</h2>
+        <p>Первый уровень- Вводный (ребята знакомятся с принципом ременных передач, зубчатых колёс и азам программирования в EV3 CLASSROOM
+        <br><br>
+        Второй уровень- Базовый (В рамках освоения курса ребенок научится: Понимать принципы работы датчиков и других элементов, азы робототехники. Базовым понятиям в механике и программирования, которые станут трамплином для дальнейшего освоения более сложной области робототехники.
+        <br><br>
+        Третий уровень- Углубленный (научатся настраивать беспроводное аппаратное обеспечение, устанавливать беспроводную связь между мобильным роботом и компьютером, используя промышленные средства программирования, освоят передовые технологии в области электроники, мехатроники и программирования, получат практические навыки их применения, научатся понимать принципы работы, возможности и ограничения технических устройств, предназначенных для автоматизированного поиска и обработки информации; разовьют лидерские качества и аналитическое мышление.</p>
+        <br>
+        <a href="#" class="btn btn-danger">Читать далее</a>
+      </div>
+      <div class="col-lg-6">
+        <br>
+
+        <img src="img/de16dcb4-9988-485c-8f08-dbd9a4620e16.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Карточки с языкими программирования -->
+  <div class="container-fluid padding">
+    <div class="row alert text-center">
+      <div class="col-12">
+        <h1 class="display-4">Языки программирования</h1>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="container padding">
+    <div class="row padding">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/1280067d-24a9-4f2f-b2e1-ff5c5979b066.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Python</h4>
+            <p class="card-text">Язык высокого уровня Python ценят за простоту и экономию времени, например при определении и приведении типов переменных. </p>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <div class="card">
+          <img src="img/87bfa8d0-19b3-4dda-af0c-8de296cf1857.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">C/C++</h4>
+            <p class="card-text">«Си» сочетает удобство написания высокоуровневых языков и контроль низкоуровневых. Лучше многих других языков транслируется в машинный код, но обладает непростым синтаксисом и не прощает ошибок.</p>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/4bbd46e2-9787-4bfd-8d38-bfd8c7977298.jpg" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">Scratch</h4>
+            <p class="card-text">Особенность Scratch в том, что это язык программирования на визуальной основе. Это означает, что дети учатся программированию с помощью разноцветных и интересных блоков, а не сложных программных кодов. .</p>
+            <a href="#" class="btn btn-warning">Посмотреть</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Футер сайта -->
+  <footer class="container-fluid">
+    <div class="container-fluid">
+      <div class="row padding text-center">
+        <div class="col-12">
+          <h2>Наши контакты</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="https://web.telegram.org/a/#-1577430298"><i class="fab fa-telegram"></i></a>
+          <a href="https://vk.com/nevkvant"><i class="fab fa-vk"></i></a>
+          <a href="http://kvantorium.nevinsk.ru"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
